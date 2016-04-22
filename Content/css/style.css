@@ -1,0 +1,50 @@
+nav li {
+	display: inline-block;
+	width: 150px;
+	margin: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: "Century Gothic", Futura;
+	text-transform: uppercase;
+}
+nav a {
+	color: darkslategray;
+	text-decoration: none;
+}
+nav ul {
+	list-style: none;
+}
+
+li a {
+    color: darkslategray;
+	text-decoration: none;
+}
+main ul {
+    list-style: none;
+}
+
+body{
+	font: 150%/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2em;
+	color: #333;
+	text-align: center;
+	/*background-color: white;*/
+    background-image: url(../paper-texture.jpg);
+    background-attachment: fixed;
+	width: 960px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	color: darkslategrey;
+}
+
+p {
+    
+    margin: 2em 5em;
+    padding: auto 5em;
+    text-align: left;
+}
+

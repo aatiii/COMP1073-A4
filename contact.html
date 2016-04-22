@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS Section -->
+        <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Content/app.css">
+		<title>Mini Portfolio</title>
+		<link href="Content/css/contact.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header role="banner">
+			<nav role="navigation">
+		        <ul>
+			        <li><a href="index.html" title="home Page">Home</a></li>
+			        <li><a href="bio.html" title="bio page">About Me</a></li>
+			        <li><a href="contact.html" title="contact me page">Contact Me</a></li>
+			        <li><a href="project.html" title="project page">My Project</a></li>	
+                </ul>
+	        </nav>
+		</header>
+		<main role="main">
+			<ul class="contact">
+				<!-- Social media links and contact information -->
+				<li><small><a href="https://www.facebook.com/helen.lee.5217462" title="facebookpage">Facebook</a></small></li>
+				<li><small><a title="email">helen_ati@163.com</a></small></li>
+            </ul>
+            <form method="post">	
+				
+                <fieldset>
+				<legend>Your Information</legend>
+					<div>
+						<label for="name">Name</label>
+						<input id="name" type="text" name="name" required />
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<input id="email" type="email" name="email" />
+					</div>
+					<div>
+						<label for="phone">Phone</label>
+						<input id="phone" type="tel" name="phone" />
+					</div>
+				</fieldset>
+                                
+                <p>Leave your message</p>
+				<textarea name="reivew" cols="50" rows="10"></textarea>
+                
+                <p><button type="submit"><a title="post and return to bio page" href="bio.html">Post</a></button></p>
+				
+			</form>
+		</main>
+	
+    <!-- JavaScript Section -->
+    <script src="Scripts/lib/jquery-2.2.0.min.js"></script>
+    <script src="Scripts/lib/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>	
+	</body>
+</html>

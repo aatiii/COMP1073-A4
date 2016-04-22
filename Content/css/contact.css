@@ -1,0 +1,46 @@
+nav li {
+	display: inline-block;
+	width: 150px;
+	margin: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: "Century Gothic", Futura;
+	text-transform: uppercase;
+}
+nav a {
+	color: darkslategray;
+	text-decoration: none;
+}
+nav ul {
+	list-style: none;
+}
+
+li a {
+    color: darkslategray;
+	text-decoration: none;
+}
+main ul {
+    list-style: none;
+}
+
+body{
+	font: 150%/1.5 "Lucida Grande", Helvetica, sans-serif;
+    font-size: 2em;
+    width: 960px;
+    
+	color: #5a5c51;
+	margin: 0 auto;
+    padding: 0 1.5em;
+    background-image: url(../paper-texture.jpg);
+    background-attachment: fixed;
+	text-align: center;
+}
+fieldset {
+	margin: 2em auto;
+}
+legend {
+	color: #5a5c51
+    
+    
+}
+
