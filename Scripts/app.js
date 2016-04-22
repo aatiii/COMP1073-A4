@@ -43,7 +43,7 @@
     image.y = 450;
 
     function init() {
-      stage.enableMouseOver(20);
+      
       createjs.Ticker.setFPS(80);
       createjs.Ticker.addEventListener("tick", animation)
 
